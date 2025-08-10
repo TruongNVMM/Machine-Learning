@@ -1,0 +1,1755 @@
+{
+  "timestamp": "2025-08-02T03:59:53.449781",
+  "model": "intfloat/multilingual-e5-base",
+  "test_size": 558,
+  "accuracy_results": {
+    "1": 0.985663082437276,
+    "3": 2.9659498207885306,
+    "5": 4.946236559139785
+  },
+  "errors_by_k": {
+    "k_1": {
+      "total_errors": 8,
+      "error_rate": 0.014336917562724014,
+      "errors": [
+        {
+          "index": 112,
+          "original_index": 1460,
+          "message": "Bought one ringtone and now getting texts costing 3 pound offering more tones etc",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Call me when you/carlos is/are here, my phone's vibrate is acting up and I might not hear texts",
+              "score": 0.8718040585517883
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 163,
+          "original_index": 3539,
+          "message": "We are pleased to inform that your application for Airtel Broadband is processed successfully. Your installation will happen within 3 days.",
+          "predicted_label": "spam",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "You will recieve your tone within the next 24hrs. For Terms and conditions please see Channel U Teletext Pg 750",
+              "score": 0.84975665807724
+            }
+          ],
+          "label_distribution": {
+            "spam": 1
+          }
+        },
+        {
+          "index": 224,
+          "original_index": 3302,
+          "message": "RCT' THNQ Adrian for U text. Rgds Vatian",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8820321559906006
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 296,
+          "original_index": 4659,
+          "message": "This message is from a great Doctor in India:-): 1) Do not drink APPY FIZZ. It contains Cancer causing age",
+          "predicted_label": "spam",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "Your credits have been topped up for http://www.bubbletext.com Your renewal Pin is tgxxrz",
+              "score": 0.8491457104682922
+            }
+          ],
+          "label_distribution": {
+            "spam": 1
+          }
+        },
+        {
+          "index": 360,
+          "original_index": 3360,
+          "message": "Sorry I missed your call let's talk when you have the time. I'm on 07090201529",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 368,
+          "original_index": 1430,
+          "message": "For sale - arsenal dartboard. Good condition but no doubles or trebles!",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.843521773815155
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 484,
+          "original_index": 2823,
+          "message": "ROMCAPspam Everyone around should be responding well to your presence since you are so warm and outgoing. You are bringing in a real breath of sunshine.",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "You have come into my life and brought the sun ..Shiny down on me, warming my heart. Putting a constant smile on my face ... Making me feel loved and cared for",
+              "score": 0.8855353593826294
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 492,
+          "original_index": 5331,
+          "message": "X course it 2yrs. Just so her messages on messenger lik you r sending me",
+          "predicted_label": "spam",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "You will recieve your tone within the next 24hrs. For Terms and conditions please see Channel U Teletext Pg 750",
+              "score": 0.8930383324623108
+            }
+          ],
+          "label_distribution": {
+            "spam": 1
+          }
+        }
+      ]
+    },
+    "k_3": {
+      "total_errors": 19,
+      "error_rate": 0.034050179211469536,
+      "errors": [
+        {
+          "index": 112,
+          "original_index": 1460,
+          "message": "Bought one ringtone and now getting texts costing 3 pound offering more tones etc",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Call me when you/carlos is/are here, my phone's vibrate is acting up and I might not hear texts",
+              "score": 0.8718040585517883
+            },
+            {
+              "label": "spam",
+              "message": "Download as many ringtones as u like no restrictions, 1000s 2 choose. U can even send 2 yr buddys. Txt Sir to 80082 £3",
+              "score": 0.869086503982544
+            },
+            {
+              "label": "ham",
+              "message": "Went to pay rent. So i had to go to the bank to authorise the payment.",
+              "score": 0.8645523190498352
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 112,
+          "original_index": 1460,
+          "message": "Bought one ringtone and now getting texts costing 3 pound offering more tones etc",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Call me when you/carlos is/are here, my phone's vibrate is acting up and I might not hear texts",
+              "score": 0.8718040585517883
+            },
+            {
+              "label": "spam",
+              "message": "Download as many ringtones as u like no restrictions, 1000s 2 choose. U can even send 2 yr buddys. Txt Sir to 80082 £3",
+              "score": 0.869086503982544
+            },
+            {
+              "label": "ham",
+              "message": "Went to pay rent. So i had to go to the bank to authorise the payment.",
+              "score": 0.8645523190498352
+            }
+          ],
+          "label_distribution": {
+            "ham": 1,
+            "spam": 1
+          }
+        },
+        {
+          "index": 112,
+          "original_index": 1460,
+          "message": "Bought one ringtone and now getting texts costing 3 pound offering more tones etc",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Call me when you/carlos is/are here, my phone's vibrate is acting up and I might not hear texts",
+              "score": 0.8718040585517883
+            },
+            {
+              "label": "spam",
+              "message": "Download as many ringtones as u like no restrictions, 1000s 2 choose. U can even send 2 yr buddys. Txt Sir to 80082 £3",
+              "score": 0.869086503982544
+            },
+            {
+              "label": "ham",
+              "message": "Went to pay rent. So i had to go to the bank to authorise the payment.",
+              "score": 0.8645523190498352
+            }
+          ],
+          "label_distribution": {
+            "ham": 2,
+            "spam": 1
+          }
+        },
+        {
+          "index": 163,
+          "original_index": 3539,
+          "message": "We are pleased to inform that your application for Airtel Broadband is processed successfully. Your installation will happen within 3 days.",
+          "predicted_label": "spam",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "You will recieve your tone within the next 24hrs. For Terms and conditions please see Channel U Teletext Pg 750",
+              "score": 0.84975665807724
+            },
+            {
+              "label": "ham",
+              "message": "sir, you will receive the account no another 1hr time. Sorry for the delay.",
+              "score": 0.8346901535987854
+            },
+            {
+              "label": "ham",
+              "message": "Have you laid your airtel line to rest?",
+              "score": 0.8328995704650879
+            }
+          ],
+          "label_distribution": {
+            "spam": 1
+          }
+        },
+        {
+          "index": 224,
+          "original_index": 3302,
+          "message": "RCT' THNQ Adrian for U text. Rgds Vatian",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8820321559906006
+            },
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.8803538680076599
+            },
+            {
+              "label": "ham",
+              "message": "Nutter. Cutter. Ctter. Cttergg. Cttargg. Ctargg. Ctagg. ie you",
+              "score": 0.8799110651016235
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 224,
+          "original_index": 3302,
+          "message": "RCT' THNQ Adrian for U text. Rgds Vatian",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8820321559906006
+            },
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.8803538680076599
+            },
+            {
+              "label": "ham",
+              "message": "Nutter. Cutter. Ctter. Cttergg. Cttargg. Ctargg. Ctagg. ie you",
+              "score": 0.8799110651016235
+            }
+          ],
+          "label_distribution": {
+            "ham": 2
+          }
+        },
+        {
+          "index": 224,
+          "original_index": 3302,
+          "message": "RCT' THNQ Adrian for U text. Rgds Vatian",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8820321559906006
+            },
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.8803538680076599
+            },
+            {
+              "label": "ham",
+              "message": "Nutter. Cutter. Ctter. Cttergg. Cttargg. Ctargg. Ctagg. ie you",
+              "score": 0.8799110651016235
+            }
+          ],
+          "label_distribution": {
+            "ham": 3
+          }
+        },
+        {
+          "index": 263,
+          "original_index": 3981,
+          "message": "ringtoneking 84484",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "85233 FREE>Ringtone!Reply REAL",
+              "score": 0.8734714984893799
+            },
+            {
+              "label": "ham",
+              "message": "645",
+              "score": 0.8726897239685059
+            },
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8689374923706055
+            }
+          ],
+          "label_distribution": {
+            "ham": 1,
+            "spam": 1
+          }
+        },
+        {
+          "index": 263,
+          "original_index": 3981,
+          "message": "ringtoneking 84484",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "85233 FREE>Ringtone!Reply REAL",
+              "score": 0.8734714984893799
+            },
+            {
+              "label": "ham",
+              "message": "645",
+              "score": 0.8726897239685059
+            },
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8689374923706055
+            }
+          ],
+          "label_distribution": {
+            "ham": 2,
+            "spam": 1
+          }
+        },
+        {
+          "index": 296,
+          "original_index": 4659,
+          "message": "This message is from a great Doctor in India:-): 1) Do not drink APPY FIZZ. It contains Cancer causing age",
+          "predicted_label": "spam",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "Your credits have been topped up for http://www.bubbletext.com Your renewal Pin is tgxxrz",
+              "score": 0.8491457104682922
+            },
+            {
+              "label": "ham",
+              "message": "1Apple/Day=No Doctor. 1Tulsi Leaf/Day=No Cancer. 1Lemon/Day=No Fat. 1Cup Milk/day=No Bone Problms 3 Litres Watr/Day=No Diseases Snd ths 2 Whom U Care..:-)",
+              "score": 0.8459888100624084
+            },
+            {
+              "label": "ham",
+              "message": "O. Well uv causes mutations. Sunscreen is like essential thesedays",
+              "score": 0.8459078073501587
+            }
+          ],
+          "label_distribution": {
+            "spam": 1
+          }
+        },
+        {
+          "index": 360,
+          "original_index": 3360,
+          "message": "Sorry I missed your call let's talk when you have the time. I'm on 07090201529",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 360,
+          "original_index": 3360,
+          "message": "Sorry I missed your call let's talk when you have the time. I'm on 07090201529",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            }
+          ],
+          "label_distribution": {
+            "ham": 2
+          }
+        },
+        {
+          "index": 360,
+          "original_index": 3360,
+          "message": "Sorry I missed your call let's talk when you have the time. I'm on 07090201529",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            }
+          ],
+          "label_distribution": {
+            "ham": 3
+          }
+        },
+        {
+          "index": 368,
+          "original_index": 1430,
+          "message": "For sale - arsenal dartboard. Good condition but no doubles or trebles!",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.843521773815155
+            },
+            {
+              "label": "spam",
+              "message": "This message is free. Welcome to the new & improved Sex & Dogging club! To unsubscribe from this service reply STOP. msgs@150p 18 only",
+              "score": 0.842879056930542
+            },
+            {
+              "label": "spam",
+              "message": "This msg is for your mobile content order It has been resent as previous attempt failed due to network error Queries to customersqueries@netvision.uk.com",
+              "score": 0.8417277336120605
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 368,
+          "original_index": 1430,
+          "message": "For sale - arsenal dartboard. Good condition but no doubles or trebles!",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.843521773815155
+            },
+            {
+              "label": "spam",
+              "message": "This message is free. Welcome to the new & improved Sex & Dogging club! To unsubscribe from this service reply STOP. msgs@150p 18 only",
+              "score": 0.842879056930542
+            },
+            {
+              "label": "spam",
+              "message": "This msg is for your mobile content order It has been resent as previous attempt failed due to network error Queries to customersqueries@netvision.uk.com",
+              "score": 0.8417277336120605
+            }
+          ],
+          "label_distribution": {
+            "ham": 1,
+            "spam": 1
+          }
+        },
+        {
+          "index": 371,
+          "original_index": 2247,
+          "message": "Hi ya babe x u 4goten bout me?' scammers getting smart..Though this is a regular vodafone no, if you respond you get further prem rate msg/subscription. Other nos used also. Beware!",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "todays vodafone numbers ending with 0089(my last four digits) are selected to received a £350 award. If your number matches please call 09063442151 to claim your £350 award",
+              "score": 0.8513469696044922
+            },
+            {
+              "label": "ham",
+              "message": "No dear i do have free messages without any recharge. Hi hi hi",
+              "score": 0.8489577174186707
+            },
+            {
+              "label": "spam",
+              "message": "we tried to contact you re your response to our offer of a new nokia fone and camcorder hit reply or call 08000930705 for delivery",
+              "score": 0.8484426736831665
+            }
+          ],
+          "label_distribution": {
+            "ham": 1,
+            "spam": 1
+          }
+        },
+        {
+          "index": 484,
+          "original_index": 2823,
+          "message": "ROMCAPspam Everyone around should be responding well to your presence since you are so warm and outgoing. You are bringing in a real breath of sunshine.",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "You have come into my life and brought the sun ..Shiny down on me, warming my heart. Putting a constant smile on my face ... Making me feel loved and cared for",
+              "score": 0.8855353593826294
+            },
+            {
+              "label": "spam",
+              "message": "This message is free. Welcome to the new & improved Sex & Dogging club! To unsubscribe from this service reply STOP. msgs@150p 18+only",
+              "score": 0.8810338973999023
+            },
+            {
+              "label": "spam",
+              "message": "Summers finally here! Fancy a chat or flirt with sexy singles in yr area? To get MATCHED up just reply SUMMER now. Free 2 Join. OptOut txt STOP Help08714742804",
+              "score": 0.8808724284172058
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 484,
+          "original_index": 2823,
+          "message": "ROMCAPspam Everyone around should be responding well to your presence since you are so warm and outgoing. You are bringing in a real breath of sunshine.",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "You have come into my life and brought the sun ..Shiny down on me, warming my heart. Putting a constant smile on my face ... Making me feel loved and cared for",
+              "score": 0.8855353593826294
+            },
+            {
+              "label": "spam",
+              "message": "This message is free. Welcome to the new & improved Sex & Dogging club! To unsubscribe from this service reply STOP. msgs@150p 18+only",
+              "score": 0.8810338973999023
+            },
+            {
+              "label": "spam",
+              "message": "Summers finally here! Fancy a chat or flirt with sexy singles in yr area? To get MATCHED up just reply SUMMER now. Free 2 Join. OptOut txt STOP Help08714742804",
+              "score": 0.8808724284172058
+            }
+          ],
+          "label_distribution": {
+            "ham": 1,
+            "spam": 1
+          }
+        },
+        {
+          "index": 492,
+          "original_index": 5331,
+          "message": "X course it 2yrs. Just so her messages on messenger lik you r sending me",
+          "predicted_label": "spam",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "You will recieve your tone within the next 24hrs. For Terms and conditions please see Channel U Teletext Pg 750",
+              "score": 0.8930383324623108
+            },
+            {
+              "label": "ham",
+              "message": "Exactly. Anyways how far. Is jide her to study or just visiting",
+              "score": 0.8921070098876953
+            },
+            {
+              "label": "ham",
+              "message": "I didnt get ur full msg..sometext is missing, send it again",
+              "score": 0.8903849124908447
+            }
+          ],
+          "label_distribution": {
+            "spam": 1
+          }
+        }
+      ]
+    },
+    "k_5": {
+      "total_errors": 30,
+      "error_rate": 0.053763440860215055,
+      "errors": [
+        {
+          "index": 112,
+          "original_index": 1460,
+          "message": "Bought one ringtone and now getting texts costing 3 pound offering more tones etc",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Call me when you/carlos is/are here, my phone's vibrate is acting up and I might not hear texts",
+              "score": 0.8718040585517883
+            },
+            {
+              "label": "spam",
+              "message": "Download as many ringtones as u like no restrictions, 1000s 2 choose. U can even send 2 yr buddys. Txt Sir to 80082 £3",
+              "score": 0.869086503982544
+            },
+            {
+              "label": "ham",
+              "message": "Went to pay rent. So i had to go to the bank to authorise the payment.",
+              "score": 0.8645523190498352
+            },
+            {
+              "label": "ham",
+              "message": "I want to tell you how bad I feel that basically the only times I text you lately are when I need drugs",
+              "score": 0.864076554775238
+            },
+            {
+              "label": "ham",
+              "message": "Hello. Damn this christmas thing. I think i have decided to keep this mp3 that doesnt work.",
+              "score": 0.8637160658836365
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 112,
+          "original_index": 1460,
+          "message": "Bought one ringtone and now getting texts costing 3 pound offering more tones etc",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Call me when you/carlos is/are here, my phone's vibrate is acting up and I might not hear texts",
+              "score": 0.8718040585517883
+            },
+            {
+              "label": "spam",
+              "message": "Download as many ringtones as u like no restrictions, 1000s 2 choose. U can even send 2 yr buddys. Txt Sir to 80082 £3",
+              "score": 0.869086503982544
+            },
+            {
+              "label": "ham",
+              "message": "Went to pay rent. So i had to go to the bank to authorise the payment.",
+              "score": 0.8645523190498352
+            },
+            {
+              "label": "ham",
+              "message": "I want to tell you how bad I feel that basically the only times I text you lately are when I need drugs",
+              "score": 0.864076554775238
+            },
+            {
+              "label": "ham",
+              "message": "Hello. Damn this christmas thing. I think i have decided to keep this mp3 that doesnt work.",
+              "score": 0.8637160658836365
+            }
+          ],
+          "label_distribution": {
+            "ham": 1,
+            "spam": 1
+          }
+        },
+        {
+          "index": 112,
+          "original_index": 1460,
+          "message": "Bought one ringtone and now getting texts costing 3 pound offering more tones etc",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Call me when you/carlos is/are here, my phone's vibrate is acting up and I might not hear texts",
+              "score": 0.8718040585517883
+            },
+            {
+              "label": "spam",
+              "message": "Download as many ringtones as u like no restrictions, 1000s 2 choose. U can even send 2 yr buddys. Txt Sir to 80082 £3",
+              "score": 0.869086503982544
+            },
+            {
+              "label": "ham",
+              "message": "Went to pay rent. So i had to go to the bank to authorise the payment.",
+              "score": 0.8645523190498352
+            },
+            {
+              "label": "ham",
+              "message": "I want to tell you how bad I feel that basically the only times I text you lately are when I need drugs",
+              "score": 0.864076554775238
+            },
+            {
+              "label": "ham",
+              "message": "Hello. Damn this christmas thing. I think i have decided to keep this mp3 that doesnt work.",
+              "score": 0.8637160658836365
+            }
+          ],
+          "label_distribution": {
+            "ham": 2,
+            "spam": 1
+          }
+        },
+        {
+          "index": 112,
+          "original_index": 1460,
+          "message": "Bought one ringtone and now getting texts costing 3 pound offering more tones etc",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Call me when you/carlos is/are here, my phone's vibrate is acting up and I might not hear texts",
+              "score": 0.8718040585517883
+            },
+            {
+              "label": "spam",
+              "message": "Download as many ringtones as u like no restrictions, 1000s 2 choose. U can even send 2 yr buddys. Txt Sir to 80082 £3",
+              "score": 0.869086503982544
+            },
+            {
+              "label": "ham",
+              "message": "Went to pay rent. So i had to go to the bank to authorise the payment.",
+              "score": 0.8645523190498352
+            },
+            {
+              "label": "ham",
+              "message": "I want to tell you how bad I feel that basically the only times I text you lately are when I need drugs",
+              "score": 0.864076554775238
+            },
+            {
+              "label": "ham",
+              "message": "Hello. Damn this christmas thing. I think i have decided to keep this mp3 that doesnt work.",
+              "score": 0.8637160658836365
+            }
+          ],
+          "label_distribution": {
+            "ham": 3,
+            "spam": 1
+          }
+        },
+        {
+          "index": 112,
+          "original_index": 1460,
+          "message": "Bought one ringtone and now getting texts costing 3 pound offering more tones etc",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Call me when you/carlos is/are here, my phone's vibrate is acting up and I might not hear texts",
+              "score": 0.8718040585517883
+            },
+            {
+              "label": "spam",
+              "message": "Download as many ringtones as u like no restrictions, 1000s 2 choose. U can even send 2 yr buddys. Txt Sir to 80082 £3",
+              "score": 0.869086503982544
+            },
+            {
+              "label": "ham",
+              "message": "Went to pay rent. So i had to go to the bank to authorise the payment.",
+              "score": 0.8645523190498352
+            },
+            {
+              "label": "ham",
+              "message": "I want to tell you how bad I feel that basically the only times I text you lately are when I need drugs",
+              "score": 0.864076554775238
+            },
+            {
+              "label": "ham",
+              "message": "Hello. Damn this christmas thing. I think i have decided to keep this mp3 that doesnt work.",
+              "score": 0.8637160658836365
+            }
+          ],
+          "label_distribution": {
+            "ham": 4,
+            "spam": 1
+          }
+        },
+        {
+          "index": 163,
+          "original_index": 3539,
+          "message": "We are pleased to inform that your application for Airtel Broadband is processed successfully. Your installation will happen within 3 days.",
+          "predicted_label": "spam",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "You will recieve your tone within the next 24hrs. For Terms and conditions please see Channel U Teletext Pg 750",
+              "score": 0.84975665807724
+            },
+            {
+              "label": "ham",
+              "message": "sir, you will receive the account no another 1hr time. Sorry for the delay.",
+              "score": 0.8346901535987854
+            },
+            {
+              "label": "ham",
+              "message": "Have you laid your airtel line to rest?",
+              "score": 0.8328995704650879
+            },
+            {
+              "label": "ham",
+              "message": "Sorry, I guess whenever I can get a hold of my connections, maybe an hour or two? I'll text you",
+              "score": 0.8327280282974243
+            },
+            {
+              "label": "ham",
+              "message": "Congrats ! Treat pending.i am not on mail for 2 days.will mail once thru.Respect mother at home.check mails.",
+              "score": 0.8319610357284546
+            }
+          ],
+          "label_distribution": {
+            "spam": 1
+          }
+        },
+        {
+          "index": 224,
+          "original_index": 3302,
+          "message": "RCT' THNQ Adrian for U text. Rgds Vatian",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8820321559906006
+            },
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.8803538680076599
+            },
+            {
+              "label": "ham",
+              "message": "Nutter. Cutter. Ctter. Cttergg. Cttargg. Ctargg. Ctagg. ie you",
+              "score": 0.8799110651016235
+            },
+            {
+              "label": "spam",
+              "message": "Your credits have been topped up for http://www.bubbletext.com Your renewal Pin is tgxxrz",
+              "score": 0.8797856569290161
+            },
+            {
+              "label": "ham",
+              "message": "Aldrine, rakhesh ex RTM here.pls call.urgent.",
+              "score": 0.8797438144683838
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 224,
+          "original_index": 3302,
+          "message": "RCT' THNQ Adrian for U text. Rgds Vatian",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8820321559906006
+            },
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.8803538680076599
+            },
+            {
+              "label": "ham",
+              "message": "Nutter. Cutter. Ctter. Cttergg. Cttargg. Ctargg. Ctagg. ie you",
+              "score": 0.8799110651016235
+            },
+            {
+              "label": "spam",
+              "message": "Your credits have been topped up for http://www.bubbletext.com Your renewal Pin is tgxxrz",
+              "score": 0.8797856569290161
+            },
+            {
+              "label": "ham",
+              "message": "Aldrine, rakhesh ex RTM here.pls call.urgent.",
+              "score": 0.8797438144683838
+            }
+          ],
+          "label_distribution": {
+            "ham": 2
+          }
+        },
+        {
+          "index": 224,
+          "original_index": 3302,
+          "message": "RCT' THNQ Adrian for U text. Rgds Vatian",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8820321559906006
+            },
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.8803538680076599
+            },
+            {
+              "label": "ham",
+              "message": "Nutter. Cutter. Ctter. Cttergg. Cttargg. Ctargg. Ctagg. ie you",
+              "score": 0.8799110651016235
+            },
+            {
+              "label": "spam",
+              "message": "Your credits have been topped up for http://www.bubbletext.com Your renewal Pin is tgxxrz",
+              "score": 0.8797856569290161
+            },
+            {
+              "label": "ham",
+              "message": "Aldrine, rakhesh ex RTM here.pls call.urgent.",
+              "score": 0.8797438144683838
+            }
+          ],
+          "label_distribution": {
+            "ham": 3
+          }
+        },
+        {
+          "index": 224,
+          "original_index": 3302,
+          "message": "RCT' THNQ Adrian for U text. Rgds Vatian",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8820321559906006
+            },
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.8803538680076599
+            },
+            {
+              "label": "ham",
+              "message": "Nutter. Cutter. Ctter. Cttergg. Cttargg. Ctargg. Ctagg. ie you",
+              "score": 0.8799110651016235
+            },
+            {
+              "label": "spam",
+              "message": "Your credits have been topped up for http://www.bubbletext.com Your renewal Pin is tgxxrz",
+              "score": 0.8797856569290161
+            },
+            {
+              "label": "ham",
+              "message": "Aldrine, rakhesh ex RTM here.pls call.urgent.",
+              "score": 0.8797438144683838
+            }
+          ],
+          "label_distribution": {
+            "ham": 3,
+            "spam": 1
+          }
+        },
+        {
+          "index": 224,
+          "original_index": 3302,
+          "message": "RCT' THNQ Adrian for U text. Rgds Vatian",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8820321559906006
+            },
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.8803538680076599
+            },
+            {
+              "label": "ham",
+              "message": "Nutter. Cutter. Ctter. Cttergg. Cttargg. Ctargg. Ctagg. ie you",
+              "score": 0.8799110651016235
+            },
+            {
+              "label": "spam",
+              "message": "Your credits have been topped up for http://www.bubbletext.com Your renewal Pin is tgxxrz",
+              "score": 0.8797856569290161
+            },
+            {
+              "label": "ham",
+              "message": "Aldrine, rakhesh ex RTM here.pls call.urgent.",
+              "score": 0.8797438144683838
+            }
+          ],
+          "label_distribution": {
+            "ham": 4,
+            "spam": 1
+          }
+        },
+        {
+          "index": 263,
+          "original_index": 3981,
+          "message": "ringtoneking 84484",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "85233 FREE>Ringtone!Reply REAL",
+              "score": 0.8734714984893799
+            },
+            {
+              "label": "ham",
+              "message": "645",
+              "score": 0.8726897239685059
+            },
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8689374923706055
+            },
+            {
+              "label": "spam",
+              "message": "100 dating service cal;l 09064012103 box334sk38ch",
+              "score": 0.8683403134346008
+            },
+            {
+              "label": "spam",
+              "message": "2/2 146tf150p",
+              "score": 0.8676243424415588
+            }
+          ],
+          "label_distribution": {
+            "ham": 1,
+            "spam": 1
+          }
+        },
+        {
+          "index": 263,
+          "original_index": 3981,
+          "message": "ringtoneking 84484",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "85233 FREE>Ringtone!Reply REAL",
+              "score": 0.8734714984893799
+            },
+            {
+              "label": "ham",
+              "message": "645",
+              "score": 0.8726897239685059
+            },
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8689374923706055
+            },
+            {
+              "label": "spam",
+              "message": "100 dating service cal;l 09064012103 box334sk38ch",
+              "score": 0.8683403134346008
+            },
+            {
+              "label": "spam",
+              "message": "2/2 146tf150p",
+              "score": 0.8676243424415588
+            }
+          ],
+          "label_distribution": {
+            "ham": 2,
+            "spam": 1
+          }
+        },
+        {
+          "index": 263,
+          "original_index": 3981,
+          "message": "ringtoneking 84484",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "85233 FREE>Ringtone!Reply REAL",
+              "score": 0.8734714984893799
+            },
+            {
+              "label": "ham",
+              "message": "645",
+              "score": 0.8726897239685059
+            },
+            {
+              "label": "ham",
+              "message": "Ü log off 4 wat. It's sdryb8i",
+              "score": 0.8689374923706055
+            },
+            {
+              "label": "spam",
+              "message": "100 dating service cal;l 09064012103 box334sk38ch",
+              "score": 0.8683403134346008
+            },
+            {
+              "label": "spam",
+              "message": "2/2 146tf150p",
+              "score": 0.8676243424415588
+            }
+          ],
+          "label_distribution": {
+            "ham": 2,
+            "spam": 2
+          }
+        },
+        {
+          "index": 296,
+          "original_index": 4659,
+          "message": "This message is from a great Doctor in India:-): 1) Do not drink APPY FIZZ. It contains Cancer causing age",
+          "predicted_label": "spam",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "Your credits have been topped up for http://www.bubbletext.com Your renewal Pin is tgxxrz",
+              "score": 0.8491457104682922
+            },
+            {
+              "label": "ham",
+              "message": "1Apple/Day=No Doctor. 1Tulsi Leaf/Day=No Cancer. 1Lemon/Day=No Fat. 1Cup Milk/day=No Bone Problms 3 Litres Watr/Day=No Diseases Snd ths 2 Whom U Care..:-)",
+              "score": 0.8459888100624084
+            },
+            {
+              "label": "ham",
+              "message": "O. Well uv causes mutations. Sunscreen is like essential thesedays",
+              "score": 0.8459078073501587
+            },
+            {
+              "label": "ham",
+              "message": "Just taste fish curry :-P",
+              "score": 0.8457598686218262
+            },
+            {
+              "label": "ham",
+              "message": "Dnt worry...use ice pieces in a cloth pack.also take 2 tablets.",
+              "score": 0.8456090688705444
+            }
+          ],
+          "label_distribution": {
+            "spam": 1
+          }
+        },
+        {
+          "index": 360,
+          "original_index": 3360,
+          "message": "Sorry I missed your call let's talk when you have the time. I'm on 07090201529",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023306846619
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361022710800171
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 360,
+          "original_index": 3360,
+          "message": "Sorry I missed your call let's talk when you have the time. I'm on 07090201529",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023306846619
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361022710800171
+            }
+          ],
+          "label_distribution": {
+            "ham": 2
+          }
+        },
+        {
+          "index": 360,
+          "original_index": 3360,
+          "message": "Sorry I missed your call let's talk when you have the time. I'm on 07090201529",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023306846619
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361022710800171
+            }
+          ],
+          "label_distribution": {
+            "ham": 3
+          }
+        },
+        {
+          "index": 360,
+          "original_index": 3360,
+          "message": "Sorry I missed your call let's talk when you have the time. I'm on 07090201529",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023306846619
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361022710800171
+            }
+          ],
+          "label_distribution": {
+            "ham": 4
+          }
+        },
+        {
+          "index": 360,
+          "original_index": 3360,
+          "message": "Sorry I missed your call let's talk when you have the time. I'm on 07090201529",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023902893066
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361023306846619
+            },
+            {
+              "label": "ham",
+              "message": "I cant pick the phone right now. Pls send a message",
+              "score": 0.9361022710800171
+            }
+          ],
+          "label_distribution": {
+            "ham": 5
+          }
+        },
+        {
+          "index": 368,
+          "original_index": 1430,
+          "message": "For sale - arsenal dartboard. Good condition but no doubles or trebles!",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.843521773815155
+            },
+            {
+              "label": "spam",
+              "message": "This message is free. Welcome to the new & improved Sex & Dogging club! To unsubscribe from this service reply STOP. msgs@150p 18 only",
+              "score": 0.842879056930542
+            },
+            {
+              "label": "spam",
+              "message": "This msg is for your mobile content order It has been resent as previous attempt failed due to network error Queries to customersqueries@netvision.uk.com",
+              "score": 0.8417277336120605
+            },
+            {
+              "label": "spam",
+              "message": "This message is free. Welcome to the new & improved Sex & Dogging club! To unsubscribe from this service reply STOP. msgs@150p 18+only",
+              "score": 0.8408408164978027
+            },
+            {
+              "label": "spam",
+              "message": "Free msg. Sorry, a service you ordered from 81303 could not be delivered as you do not have sufficient credit. Please top up to receive the service.",
+              "score": 0.8381017446517944
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 368,
+          "original_index": 1430,
+          "message": "For sale - arsenal dartboard. Good condition but no doubles or trebles!",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx",
+              "score": 0.843521773815155
+            },
+            {
+              "label": "spam",
+              "message": "This message is free. Welcome to the new & improved Sex & Dogging club! To unsubscribe from this service reply STOP. msgs@150p 18 only",
+              "score": 0.842879056930542
+            },
+            {
+              "label": "spam",
+              "message": "This msg is for your mobile content order It has been resent as previous attempt failed due to network error Queries to customersqueries@netvision.uk.com",
+              "score": 0.8417277336120605
+            },
+            {
+              "label": "spam",
+              "message": "This message is free. Welcome to the new & improved Sex & Dogging club! To unsubscribe from this service reply STOP. msgs@150p 18+only",
+              "score": 0.8408408164978027
+            },
+            {
+              "label": "spam",
+              "message": "Free msg. Sorry, a service you ordered from 81303 could not be delivered as you do not have sufficient credit. Please top up to receive the service.",
+              "score": 0.8381017446517944
+            }
+          ],
+          "label_distribution": {
+            "ham": 1,
+            "spam": 1
+          }
+        },
+        {
+          "index": 371,
+          "original_index": 2247,
+          "message": "Hi ya babe x u 4goten bout me?' scammers getting smart..Though this is a regular vodafone no, if you respond you get further prem rate msg/subscription. Other nos used also. Beware!",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "todays vodafone numbers ending with 0089(my last four digits) are selected to received a £350 award. If your number matches please call 09063442151 to claim your £350 award",
+              "score": 0.8513469696044922
+            },
+            {
+              "label": "ham",
+              "message": "No dear i do have free messages without any recharge. Hi hi hi",
+              "score": 0.8489577174186707
+            },
+            {
+              "label": "spam",
+              "message": "we tried to contact you re your response to our offer of a new nokia fone and camcorder hit reply or call 08000930705 for delivery",
+              "score": 0.8484426736831665
+            },
+            {
+              "label": "ham",
+              "message": "Hi mate its RV did u hav a nice hol just a message 3 say hello coz havent sent u 1 in ages started driving so stay off roads!RVx",
+              "score": 0.8472429513931274
+            },
+            {
+              "label": "ham",
+              "message": "Hi, Mobile no.  &lt;#&gt;  has added you in their contact list on www.fullonsms.com It s a great place to send free sms to people For more visit fullonsms.com",
+              "score": 0.847048819065094
+            }
+          ],
+          "label_distribution": {
+            "ham": 1,
+            "spam": 1
+          }
+        },
+        {
+          "index": 371,
+          "original_index": 2247,
+          "message": "Hi ya babe x u 4goten bout me?' scammers getting smart..Though this is a regular vodafone no, if you respond you get further prem rate msg/subscription. Other nos used also. Beware!",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "todays vodafone numbers ending with 0089(my last four digits) are selected to received a £350 award. If your number matches please call 09063442151 to claim your £350 award",
+              "score": 0.8513469696044922
+            },
+            {
+              "label": "ham",
+              "message": "No dear i do have free messages without any recharge. Hi hi hi",
+              "score": 0.8489577174186707
+            },
+            {
+              "label": "spam",
+              "message": "we tried to contact you re your response to our offer of a new nokia fone and camcorder hit reply or call 08000930705 for delivery",
+              "score": 0.8484426736831665
+            },
+            {
+              "label": "ham",
+              "message": "Hi mate its RV did u hav a nice hol just a message 3 say hello coz havent sent u 1 in ages started driving so stay off roads!RVx",
+              "score": 0.8472429513931274
+            },
+            {
+              "label": "ham",
+              "message": "Hi, Mobile no.  &lt;#&gt;  has added you in their contact list on www.fullonsms.com It s a great place to send free sms to people For more visit fullonsms.com",
+              "score": 0.847048819065094
+            }
+          ],
+          "label_distribution": {
+            "ham": 2,
+            "spam": 2
+          }
+        },
+        {
+          "index": 371,
+          "original_index": 2247,
+          "message": "Hi ya babe x u 4goten bout me?' scammers getting smart..Though this is a regular vodafone no, if you respond you get further prem rate msg/subscription. Other nos used also. Beware!",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "todays vodafone numbers ending with 0089(my last four digits) are selected to received a £350 award. If your number matches please call 09063442151 to claim your £350 award",
+              "score": 0.8513469696044922
+            },
+            {
+              "label": "ham",
+              "message": "No dear i do have free messages without any recharge. Hi hi hi",
+              "score": 0.8489577174186707
+            },
+            {
+              "label": "spam",
+              "message": "we tried to contact you re your response to our offer of a new nokia fone and camcorder hit reply or call 08000930705 for delivery",
+              "score": 0.8484426736831665
+            },
+            {
+              "label": "ham",
+              "message": "Hi mate its RV did u hav a nice hol just a message 3 say hello coz havent sent u 1 in ages started driving so stay off roads!RVx",
+              "score": 0.8472429513931274
+            },
+            {
+              "label": "ham",
+              "message": "Hi, Mobile no.  &lt;#&gt;  has added you in their contact list on www.fullonsms.com It s a great place to send free sms to people For more visit fullonsms.com",
+              "score": 0.847048819065094
+            }
+          ],
+          "label_distribution": {
+            "ham": 3,
+            "spam": 2
+          }
+        },
+        {
+          "index": 484,
+          "original_index": 2823,
+          "message": "ROMCAPspam Everyone around should be responding well to your presence since you are so warm and outgoing. You are bringing in a real breath of sunshine.",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "You have come into my life and brought the sun ..Shiny down on me, warming my heart. Putting a constant smile on my face ... Making me feel loved and cared for",
+              "score": 0.8855353593826294
+            },
+            {
+              "label": "spam",
+              "message": "This message is free. Welcome to the new & improved Sex & Dogging club! To unsubscribe from this service reply STOP. msgs@150p 18+only",
+              "score": 0.8810338973999023
+            },
+            {
+              "label": "spam",
+              "message": "Summers finally here! Fancy a chat or flirt with sexy singles in yr area? To get MATCHED up just reply SUMMER now. Free 2 Join. OptOut txt STOP Help08714742804",
+              "score": 0.8808724284172058
+            },
+            {
+              "label": "spam",
+              "message": "FREE MESSAGE Activate your 500 FREE Text Messages by replying to this message with the word FREE For terms & conditions, visit www.07781482378.com",
+              "score": 0.879875898361206
+            },
+            {
+              "label": "spam",
+              "message": "FREE MESSAGE Activate your 500 FREE Text Messages by replying to this message with the word FREE For terms & conditions, visit www.07781482378.com",
+              "score": 0.8798757791519165
+            }
+          ],
+          "label_distribution": {
+            "ham": 1
+          }
+        },
+        {
+          "index": 484,
+          "original_index": 2823,
+          "message": "ROMCAPspam Everyone around should be responding well to your presence since you are so warm and outgoing. You are bringing in a real breath of sunshine.",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "ham",
+              "message": "You have come into my life and brought the sun ..Shiny down on me, warming my heart. Putting a constant smile on my face ... Making me feel loved and cared for",
+              "score": 0.8855353593826294
+            },
+            {
+              "label": "spam",
+              "message": "This message is free. Welcome to the new & improved Sex & Dogging club! To unsubscribe from this service reply STOP. msgs@150p 18+only",
+              "score": 0.8810338973999023
+            },
+            {
+              "label": "spam",
+              "message": "Summers finally here! Fancy a chat or flirt with sexy singles in yr area? To get MATCHED up just reply SUMMER now. Free 2 Join. OptOut txt STOP Help08714742804",
+              "score": 0.8808724284172058
+            },
+            {
+              "label": "spam",
+              "message": "FREE MESSAGE Activate your 500 FREE Text Messages by replying to this message with the word FREE For terms & conditions, visit www.07781482378.com",
+              "score": 0.879875898361206
+            },
+            {
+              "label": "spam",
+              "message": "FREE MESSAGE Activate your 500 FREE Text Messages by replying to this message with the word FREE For terms & conditions, visit www.07781482378.com",
+              "score": 0.8798757791519165
+            }
+          ],
+          "label_distribution": {
+            "ham": 1,
+            "spam": 1
+          }
+        },
+        {
+          "index": 492,
+          "original_index": 5331,
+          "message": "X course it 2yrs. Just so her messages on messenger lik you r sending me",
+          "predicted_label": "spam",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "You will recieve your tone within the next 24hrs. For Terms and conditions please see Channel U Teletext Pg 750",
+              "score": 0.8930383324623108
+            },
+            {
+              "label": "ham",
+              "message": "Exactly. Anyways how far. Is jide her to study or just visiting",
+              "score": 0.8921070098876953
+            },
+            {
+              "label": "ham",
+              "message": "I didnt get ur full msg..sometext is missing, send it again",
+              "score": 0.8903849124908447
+            },
+            {
+              "label": "ham",
+              "message": "Mum, i've sent you many many messages since i got here. I just want to know that you are actually getting them. Do enjoy the rest of your day.",
+              "score": 0.8901655673980713
+            },
+            {
+              "label": "spam",
+              "message": "This message is free. Welcome to the new & improved Sex & Dogging club! To unsubscribe from this service reply STOP. msgs@150p 18+only",
+              "score": 0.8897308707237244
+            }
+          ],
+          "label_distribution": {
+            "spam": 1
+          }
+        },
+        {
+          "index": 553,
+          "original_index": 505,
+          "message": "#ERROR!",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "#ERROR!",
+              "score": 1.0
+            },
+            {
+              "label": "spam",
+              "message": "#ERROR!",
+              "score": 1.0
+            },
+            {
+              "label": "ham",
+              "message": "Ok...",
+              "score": 0.9101423025131226
+            },
+            {
+              "label": "ham",
+              "message": "Ok...",
+              "score": 0.9101423025131226
+            },
+            {
+              "label": "ham",
+              "message": "Ok...",
+              "score": 0.9101422429084778
+            }
+          ],
+          "label_distribution": {
+            "ham": 2,
+            "spam": 2
+          }
+        },
+        {
+          "index": 553,
+          "original_index": 505,
+          "message": "#ERROR!",
+          "predicted_label": "ham",
+          "neighbors": [
+            {
+              "label": "spam",
+              "message": "#ERROR!",
+              "score": 1.0
+            },
+            {
+              "label": "spam",
+              "message": "#ERROR!",
+              "score": 1.0
+            },
+            {
+              "label": "ham",
+              "message": "Ok...",
+              "score": 0.9101423025131226
+            },
+            {
+              "label": "ham",
+              "message": "Ok...",
+              "score": 0.9101423025131226
+            },
+            {
+              "label": "ham",
+              "message": "Ok...",
+              "score": 0.9101422429084778
+            }
+          ],
+          "label_distribution": {
+            "ham": 3,
+            "spam": 2
+          }
+        }
+      ]
+    }
+  }
+}
